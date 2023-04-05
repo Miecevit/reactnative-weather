@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import * as Location from 'expo-location';
 
-const API_KEY = '2c1d788150779bcab5e6edb9cdae5bc5';
+const API_KEY = 'YOUR_API_KEY';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
